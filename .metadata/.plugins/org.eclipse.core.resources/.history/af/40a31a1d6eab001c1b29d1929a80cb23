@@ -1,0 +1,10 @@
+package pacoteLACOS;
+
+public class ClasseLacosFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

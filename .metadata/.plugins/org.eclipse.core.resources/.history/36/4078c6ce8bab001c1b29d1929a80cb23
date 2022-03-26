@@ -1,0 +1,10 @@
+package pacoteGravaArquivo;
+
+public class classeGravaArquivos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

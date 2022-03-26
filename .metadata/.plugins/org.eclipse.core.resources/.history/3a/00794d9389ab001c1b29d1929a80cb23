@@ -1,0 +1,38 @@
+package pacoteLeituraArquivos;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+
+public class ClasseLeituraArquivos {
+
+	public static void main(String[] args) {
+		
+		try {
+			FileReader arquivo = new FileReader("C:\\Users\\herso\\arquivosDados.txt");
+			BufferedReader lerArquivo = new BufferedReader(arquivo);
+			
+			String linha;
+			linha = lerArquivo.readLine();
+			
+			while(linha != null) {
+				System.out.printf("%s\n", linha);
+				linha = lerArquivo.readLine();
+				
+				//String[] dadosCliente = new String [4];
+				//dadosCliente = linha.split(";");
+				
+			}
+			//lerArquivo.close();
+			//arquivo.close();
+			
+		} catch(IOException e){
+			System.out.println("Erro lendo dados: " + e.getMessage());
+			
+		}
+			
+			
+	}
+
+}

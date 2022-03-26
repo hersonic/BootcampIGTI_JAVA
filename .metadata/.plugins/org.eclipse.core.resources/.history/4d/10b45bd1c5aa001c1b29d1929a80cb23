@@ -1,0 +1,10 @@
+package pacoteIFalinhados;
+
+public class ClasseIF_Alinhados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package pacotePraticaIntegrada;
+
+public class ClasseExemplo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package pacoteExemplo;
+
+public class ClasseExemplo {
+
+	public static void main(String[] args) {
+
+       int idade = 39;
+       double altura = 1.81;
+       
+       //%s String
+       //%d int
+       //%.4f float ou double com 4 casas decimais
+       //%b boolean
+       //%c caractere (char)
+
+       System.out.printf("A idade é %d e a altura é %.2f.", idade, altura);
+	}
+
+}

@@ -1,0 +1,19 @@
+package pacoteLeituraArquivos;
+
+import java.util.*;
+
+public class ClasseLeituraArquivos {
+
+	public static void main(String[] args) {
+		
+		try {
+			FileReader arquivo = new FileReader("C:\\Users\\herso\\eclipse-workspace\\arquivosDados.txt");
+			
+		} catch {
+			
+			
+		}
+
+	}
+
+}

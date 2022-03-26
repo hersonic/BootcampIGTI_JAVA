@@ -1,0 +1,10 @@
+package pacoteLeituraDadosTeclado;
+
+public class ClasseTeclados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

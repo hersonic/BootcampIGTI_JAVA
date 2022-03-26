@@ -1,0 +1,18 @@
+package pacoteExemplo;
+
+public class ClasseExemplo {
+
+	public static void main(String[] args) {
+		String nome, nome2;
+		nome = "Herick Portugal Bomtorin";
+		nome2 = "João Valmir Araujo Bomtorin";
+		
+		System.out.println(nome);
+		System.out.println(nome2);
+		
+		int tamanhoDoNome = nome.length(), tamanhoDoNome2 = nome2.length();
+		
+		System.out.println("A variavel nome tem " + tamanhoDoNome + " caracteres.");
+	}
+
+}

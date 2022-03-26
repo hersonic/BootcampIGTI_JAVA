@@ -1,0 +1,12 @@
+package pacoteString;
+
+public class ManipulandoString {
+
+	public static void main(String[] args) {
+		String nome = "Herick Portugal Bomtorin";
+		String endereço = "Rua Salve o Tricolor Amado do brasileiro";
+		String complemento = "Apto 919205", cidade = "São Paulo", estado ="SP";
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package pacoteExemploLogicos;
+
+public class ClassesExemplos {
+
+	public static void main(String[] args) {
+		boolean ult3emprestiQuitadosPrazo, possuiRendaComprovada, clienteDezEstrelas;
+		
+		ult3emprestiQuitadosPrazo = false;
+		possuiRendaComprovada = false;
+		clienteDezEstrelas = true;
+		
+		boolean concederEmprestimo = ult3emprestiQuitadosPrazo &&  possuiRendaComprovada || clienteDezEstrelas;
+        System.out.printf("Emprestimo concedido? \n%b", concederEmprestimo);
+	}
+
+}

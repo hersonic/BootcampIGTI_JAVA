@@ -1,0 +1,21 @@
+package pacoteLACOS;
+
+import java.util.Scanner;
+
+public class ClasseLacosFor {
+
+	public static void main(String[] args) {
+		
+		//for (inicialização: condição; incremento)
+		
+		int i = 0;
+		
+		System.out.println("Inicio. não vai repetir");
+		for(i = 0; i < 10; i++) {
+			System.out.printf("Valor de i: %d.\n", i);
+		}
+		
+
+	}
+
+}
